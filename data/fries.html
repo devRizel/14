@@ -92,6 +92,24 @@
         .ui-btn1 {
             border-radius: 20px !important;
         }
+        /* Ensure the body can scroll */
+body {
+    overflow: auto; /* Allow scrolling */
+}
+
+/* Make the popup scrollable */
+#popup {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+/* Ensure the popup content inside also scrolls */
+#popup .ui-content {
+    max-height: 70vh;
+    overflow-y: auto;
+    padding: 10px;
+}
+
     </style>
 </head>
 <body>
@@ -103,13 +121,13 @@
 
         <div data-role="panel" id="overlaypanel" data-position="left" data-display="overlay">
             <br><br>
-            <a onclick="window.location.href='home2.html'" class="ui-btn">Home</a>
+            <a onclick="window.location.href='home.html'" class="ui-btn">Home</a>
             <a href="#translate" data-rel="popup" data-position-to="window" class="ui-btn">Translate</a>
             <div data-role="popup" id="translate" class="ui-content" data-overlay-theme="b" style="max-width:300px; text-align:center;">
-                <a  onclick="window.location.href='about.html'"   id="closePopup" class="ui-btn ui-btn1" data-theme="a">English</a>
-                <a  href="#" id="disableDarkMode" onclick="$('#translate').popup('close');"  class="ui-btn ui-btn1" data-theme="a">Tagalog</a>
+                <a   href="#" id="disableDarkMode" onclick="$('#translate').popup('close');" id="closePopup" class="ui-btn ui-btn1" data-theme="a">English</a>
+                <a  onclick="window.location.href='fries2.html'"  class="ui-btn ui-btn1" data-theme="a">Tagalog</a>
             </div>
-            <a onclick="window.location.href='about2.html'" class="ui-btn">About</a>
+            <a onclick="window.location.href='about.html'" class="ui-btn">About</a>
             <a href="#darkModePopup" data-rel="popup" data-position-to="window" class="ui-btn">Dark Mode</a>
             <div data-role="popup" id="darkModePopup" class="ui-content" data-overlay-theme="b" style="max-width:300px; text-align:center;">
                 <a href="#" id="disableDarkMode" class="ui-btn ui-btn1" data-theme="a">Light Mode</a>
@@ -122,14 +140,74 @@
                 <a href="#" id="closePopup" class="ui-btn ui-btn1" data-role="button" data-theme="a">No</a>
                 </div>
         </div>
-        <br> <br> <br>
+        <br><br>
+        <hr>
         <div role="main" class="ui-content" style="text-align: center;">
-           <h1 class="animated-heading">About</h1>
-            <p class="animated-heading" style="text-align: justify;">
-                Ang Coolers Menu Viewer ay isang mobile-friendly na app na dinisenyo upang matulungan ang mga customer na madaling makita ang buong menu ng inyong tindahan ng inumin at meryenda. Ang app ay nagbibigay ng detalyadong impormasyon tungkol sa lahat ng inaalok, kabilang ang Special Selection na mga dessert, Milk Tea Series na mga inumin, Pearly Shakes, Flavored Belgian Fries, 5" Solo Pizzas, at mga pampatanggal uhaw na Juices - kasama ang mga presyo, deskripsyon, at mga larawan.
-                
-            </p>
+            <a class="animated-heading" href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/f1.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup1" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/f1.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p >
+                            Barbeque Belgain Fries P70
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <hr>
+            <a class="animated-heading" href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/f2.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup2" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/f2.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p>
+                            Barbeque Belgain Fries P70
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <hr>
+            <a class="animated-heading" href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/f3.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More DetailsMore Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup3" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/f3.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p >
+                            Barbeque Belgain Fries P70
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <br><br><br><br><br><br><br>
         </div>
+     
         <script src="../includes/js/js/index.js"></script>
         <script type="text/javascript">
             // Toggle dark mode manually (if needed from elsewhere)

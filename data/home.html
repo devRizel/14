@@ -140,18 +140,18 @@ body.dark-mode a.icon {
         <div data-role="content" class="animated-heading">
             <input id="searchInput" list="searchOptions" placeholder="Search..." />
             <datalist id="searchOptions">
-                <option value="Burger">
-              <option value="Drinks">
-              <option value="Others">
+                <option value="Ice Cream">
+              <option value="Rice Meal">
+              <option value="Fries">
             </datalist>
             <script>
               const input = document.getElementById('searchInput');
               input.addEventListener('change', () => {
                 const value = input.value;
                 const links = {
-                    "Burger": "regular.html",
-                    "Drinks": "drinks.html",
-                  "Others": "others.html",
+                    "Ice Cream": "icecream.html",
+                    "Rice Meal": "ricemeal.html",
+                  "Fries": "fries.html",
                 };
                 if (links[value]) {
                   window.location.href = links[value];
@@ -160,14 +160,247 @@ body.dark-mode a.icon {
             </script>
         <br>
             <div id="extraContent">
-                <p style="font-size: 30px; text-align: center;">  Burger Junction
+                <p style="font-size: 30px; text-align: center;">  Coolers Menu
 
                 </p>
             </div>
         </div>
+        <br><br>
+        <hr>
         <div role="main" class="ui-content" style="text-align: center;">
             <a class="animated-heading" href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade">
-                <img src="../includes/img/r1.jpg" height="200" width="200px" alt="">
+                <img src="../includes/img/i1.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup1" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/i1.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p >
+                            Ultimate Dark Chocolate P49
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <hr>
+            <a class="animated-heading" href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/i2.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup2" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/i2.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p>
+                            Supreme Strawberry Royale P49
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <hr>
+            <a class="animated-heading" href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/i3.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup3" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/i3.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p >
+                            Premium Ube Tropical P49
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <hr>
+            <a class="animated-heading" href="#popup4" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/i4.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup4" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup4" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/i4.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p >
+                            Creamiest Vanila Pistachio P49
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <hr>
+            <a class="animated-heading" href="#popup6" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/i6.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup6" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup6" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/i6.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p >
+                            Mais Con Yelo P49
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <hr>
+            <a class="animated-heading" href="#popup7" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/i7.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup7" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup7" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/i7.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p >
+                            Overload Cooler P49
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <hr>
+            <a class="animated-heading" href="#popup8" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/i8.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup8" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup8" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/i8.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p >
+                            Mango Graham Float P49
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <hr>
+            <a class="animated-heading" href="#popup9" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/i9.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup9" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup9" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/i9.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p >
+                            Buko Cracker Float P49
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <hr>
+            <a class="animated-heading" href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/f1.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup1" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/f1.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p >
+                            Barbeque Belgain Fries P70
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <hr>
+            <a class="animated-heading" href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/f2.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup2" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/f2.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p>
+                            Barbeque Belgain Fries P70
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <hr>
+            <a class="animated-heading" href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/f3.jpg" height="200" width="200px" alt="">
+            </a>
+            <center>
+                <a href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade"
+                style="text-decoration: none; color: rgb(75, 72, 72);"
+                 >
+                    <p class="animated-heading">More DetailsMore Details</p>
+                </a>
+            </center>            
+            <div data-role="popup" id="popup3" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
+                <div style="padding: 10px;">
+                    <img class="popphoto" src="../includes/img/f3.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <center>
+                        <p >
+                            Barbeque Belgain Fries P70
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <hr>
+            <a class="animated-heading" href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade">
+                <img src="../includes/img/c1.jpg" height="200" width="200px" alt="">
             </a>
             <center>
                 <a href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade"
@@ -186,17 +419,17 @@ body.dark-mode a.icon {
             </center>            
             <div data-role="popup" id="popup1" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
                 <div style="padding: 10px;">
-                    <img  class="popphoto " src="../includes/img/r1.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <img  class="popphoto " src="../includes/img/c1.jpg" style="max-height: 512px; width: 100%; height: auto;">
                     <center>
                         <p >
-                            Cheesy Egg Burger P49
+                            Longganisa & Egg Meal P120
                         </p>
                     </center>
                 </div>
             </div>
             <hr>
             <a class="animated-heading" href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade">
-                <img src="../includes/img/r2.jpg" height="200" width="200px" alt="">
+                <img src="../includes/img/c2.jpg" height="200" width="200px" alt="">
             </a>
             <center>
                 <a href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade"
@@ -207,17 +440,17 @@ body.dark-mode a.icon {
             </center>            
             <div data-role="popup" id="popup2" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
                 <div style="padding: 10px;">
-                    <img class="popphoto" src="../includes/img/r2.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <img class="popphoto" src="../includes/img/c2.jpg" style="max-height: 512px; width: 100%; height: auto;">
                     <center>
                         <p class="animated-heading" >
-                            Cheesy Egg Burger P49
+                            Spam & Egg Meal P120
                         </p>
                     </center>
                 </div>
             </div>
             <hr>
             <a class="animated-heading" href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade">
-                <img src="../includes/img/r3.jpg" height="200" width="200px" alt="">
+                <img src="../includes/img/c3.jpg" height="200" width="200px" alt="">
             </a>
             <center>
                 <a href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
@@ -227,17 +460,17 @@ body.dark-mode a.icon {
             </center>       
             <div data-role="popup" id="popup3" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
                 <div style="padding: 10px;">
-                    <img class="popphoto" src="../includes/img/r3.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <img class="popphoto" src="../includes/img/c3.jpg" style="max-height: 512px; width: 100%; height: auto;">
                     <center>
                         <p >
-                            Cheesy Ham Egg Burger P49
+                            Beef Tapa & Egg Meal P120
                         </p>
                     </center>
                 </div>
             </div>
             <hr>
                 <a class="animated-heading" href="#popup4" data-rel="popup" data-position-to="window" data-transition="fade">
-                    <img src="../includes/img/r4.jpg" height="200" width="200px" alt="">
+                    <img src="../includes/img/c4.jpg" height="200" width="200px" alt="">
                 </a>
                 <center>
                     <a href="#popup4" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
@@ -247,19 +480,17 @@ body.dark-mode a.icon {
                 </center>
             <div data-role="popup" id="popup4" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
                 <div style="padding: 10px;">
-                    <img class="popphoto" src="../includes/img/r4.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                    <img class="popphoto" src="../includes/img/c4.jpg" style="max-height: 512px; width: 100%; height: auto;">
                     <center>
                         <p >
-                            Ham Egg Burger P49
-
-
+                            Hotdog & Egg Meal P120
                         </p>
                     </center>
                 </div>
             </div>
             <hr>
             <a class="animated-heading" href="#popup5" data-rel="popup" data-position-to="window" data-transition="fade">
-                <img src="../includes/img/r5.jpg" height="200" width="200px" alt="">
+                <img src="../includes/img/c5.jpg" height="200" width="200px" alt="">
             </a>
             <center>
                 <a href="#popup5" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
@@ -269,17 +500,17 @@ body.dark-mode a.icon {
             </center>
         <div data-role="popup" id="popup5" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
             <div style="padding: 10px;">
-                <img class="popphoto" src="../includes/img/r5.jpg" style="max-height: 512px; width: 100%; height: auto;">
+                <img class="popphoto" src="../includes/img/c5.jpg" style="max-height: 512px; width: 100%; height: auto;">
                 <center>
                     <p >
-                        Cheesy Ham Egg Burger P49
+                        Chicken Nuggests P80
                     </p>
                 </center>
             </div>
         </div>
         <hr>
         <a class="animated-heading" href="#popup6" data-rel="popup" data-position-to="window" data-transition="fade">
-            <img src="../includes/img/r6.jpg" height="200" width="200px" alt="">
+            <img src="../includes/img/c6.jpg" height="200" width="200px" alt="">
         </a>
         <center>
             <a href="#popup6" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
@@ -289,17 +520,17 @@ body.dark-mode a.icon {
         </center>
     <div data-role="popup" id="popup6" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
         <div style="padding: 10px;">
-            <img class="popphoto" src="../includes/img/r6.jpg" style="max-height: 512px; width: 100%; height: auto;">
+            <img class="popphoto" src="../includes/img/c6.jpg" style="max-height: 512px; width: 100%; height: auto;">
             <center>
                 <p >
-                    Ham Egg Burger P49
+                    Pork Tocino P80
                 </p>
             </center>
         </div>
     </div>
     <hr>
     <a class="animated-heading" href="#popup7" data-rel="popup" data-position-to="window" data-transition="fade">
-        <img src="../includes/img/r7.jpg" height="200" width="200px" alt="">
+        <img src="../includes/img/m1.jpg" height="200" width="200px" alt="">
     </a>
     <center>
         <a href="#popup7" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
@@ -309,17 +540,17 @@ body.dark-mode a.icon {
     </center>
 <div data-role="popup" id="popup7" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
     <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/r7.jpg" style="max-height: 512px; width: 100%; height: auto;">
+        <img class="popphoto" src="../includes/img/m1.jpg" style="max-height: 512px; width: 100%; height: auto;">
         <center>
             <p >
-                Regular Egg Burger P49
+                Spicy Sweet Grilled Chicken P120
             </p>
         </center>
     </div>
 </div>
 <hr>
 <a class="animated-heading" href="#popup8" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/r8.jpg" height="200" width="200px" alt="">
+    <img src="../includes/img/m2.jpg" height="200" width="200px" alt="">
 </a>
 <center>
     <a href="#popup8" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
@@ -329,542 +560,17 @@ body.dark-mode a.icon {
 </center>
 <div data-role="popup" id="popup8" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
 <div style="padding: 10px;">
-    <img class="popphoto" src="../includes/img/r8.jpg" style="max-height: 512px; width: 100%; height: auto;">
+    <img class="popphoto" src="../includes/img/m2.jpg" style="max-height: 512px; width: 100%; height: auto;">
     <center>
         <p >
-            Overload Ham Egg Burger P49
+            Grilled Chicken Teriyaki Sizzle P120
         </p>
     </center>
 </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup9" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/r9.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup9" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
-        <p class="animated-heading">More Details</p>
-    </a>
-
-</center>
-<div data-role="popup" id="popup9" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-<div style="padding: 10px;">
-    <img class="popphoto" src="../includes/img/r9.jpg" style="max-height: 512px; width: 100%; height: auto;">
-    <center>
-        <p >
-            Egg Burger P49
-
-        </p>
-    </center>
-</div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup10" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/b1.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup10" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
-        <p class="animated-heading">More Details</p>
-    </a>
-
-</center>
-<div data-role="popup" id="popup10" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-<div style="padding: 10px;">
-    <img class="popphoto" src="../includes/img/b1.jpg" style="max-height: 512px; width: 100%; height: auto;">
-    <center>
-        <p >
-            Buy 1 Take 1 Egg Burger P49
-        </p>
-    </center>
-</div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup12" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/b3.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup12" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
-        <p class="animated-heading">More Details</p>
-    </a>
-
-</center>
-<div data-role="popup" id="popup12" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-<div style="padding: 10px;">
-    <img class="popphoto" src="../includes/img/b3.jpg" style="max-height: 512px; width: 100%; height: auto;">
-    <center>
-        <p >
-            Regulat Buy 1 Take 1 Burger P49
-        </p>
-    </center>
-</div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/n1.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-    <!-- <div class="star-rating rate1" data-item="b1">
-        <input type="hidden" id="rating-value-b1" name="rating" value="0">
-        <span class="star" data-value="1">&#9733;</span>
-        <span class="star" data-value="2">&#9733;</span>
-        <span class="star" data-value="3">&#9733;</span>
-        <span class="star" data-value="4">&#9733;</span>
-        <span class="star" data-value="5">&#9733;</span>
-    </div> -->
-</center>            
-<div data-role="popup" id="popup1" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img  class="popphoto " src="../includes/img/n1.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p >
-                Extra Hot  Flavor P30
-
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/n2.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-</center>            
-<div data-role="popup" id="popup2" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/n2.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p class="animated-heading" >
-                Sweet Spicpy Flavor P30
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/n3.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
-        <p class="animated-heading">More Details</p>
-    </a>
-
-</center>       
-<div data-role="popup" id="popup3" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/n3.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p >
-                Sweet Spicpy Flavor P30
-    
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-    <a class="animated-heading" href="#popup4" data-rel="popup" data-position-to="window" data-transition="fade">
-        <img src="../includes/img/n4.jpg" height="200" width="200px" alt="">
-    </a>
-    <center>
-        <a href="#popup4" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
-            <p class="animated-heading">More Details</p>
-        </a>
-
-    </center>
-<div data-role="popup" id="popup4" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/n4.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p >
-                Chilimansi Flavor P30
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup5" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/n5.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup5" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
-        <p class="animated-heading">More Details</p>
-    </a>
-
-</center>
-<div data-role="popup" id="popup5" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-<div style="padding: 10px;">
-    <img class="popphoto" src="../includes/img/n5.jpg" style="max-height: 512px; width: 100%; height: auto;">
-    <center>
-        <p >
-            Original Flavor P30
-        </p>
-    </center>
-</div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup6" data-rel="popup" data-position-to="window" data-transition="fade">
-<img src="../includes/img/n6.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-<a href="#popup6" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
-    <p class="animated-heading">More Details</p>
-</a>
-
-</center>
-<div data-role="popup" id="popup6" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-<div style="padding: 10px;">
-<img class="popphoto" src="../includes/img/n6.jpg" style="max-height: 512px; width: 100%; height: auto;">
-<center>
-    <p >
-        Sweet Spicpy Flavor P35
-    </p>
-</center>
-</div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup7" data-rel="popup" data-position-to="window" data-transition="fade">
-<img src="../includes/img/n7.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-<a href="#popup7" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
-<p class="animated-heading">More Details</p>
-</a>
-
-</center>
-<div data-role="popup" id="popup7" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-<div style="padding: 10px;">
-<img class="popphoto" src="../includes/img/n7.jpg" style="max-height: 512px; width: 100%; height: auto;">
-<center>
-<p >
-    Chilimansi Flavor P35
-</p>
-</center>
-</div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup8" data-rel="popup" data-position-to="window" data-transition="fade">
-<img src="../includes/img/n8.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-<a href="#popup8" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
-<p class="animated-heading">More Details</p>
-</a>
-
-</center>
-<div data-role="popup" id="popup8" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-<div style="padding: 10px;">
-<img class="popphoto" src="../includes/img/n8.jpg" style="max-height: 512px; width: 100%; height: auto;">
-<center>
-<p >
-Extra Hot Flavor P35
-</p>
-</center>
-</div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup9" data-rel="popup" data-position-to="window" data-transition="fade">
-<img src="../includes/img/n9.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-<a href="#popup9" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
-<p class="animated-heading">More Details</p>
-</a>
-
-</center>
-<div data-role="popup" id="popup9" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-<div style="padding: 10px;">
-<img class="popphoto" src="../includes/img/n9.jpg" style="max-height: 512px; width: 100%; height: auto;">
-<center>
-<p >
-Orignal Flavor P35
-</p>
-</center>
-</div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup10" data-rel="popup" data-position-to="window" data-transition="fade">
-<img src="../includes/img/n10.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-<a href="#popup10" data-rel="popup" data-position-to="window" data-transition="fade" style="text-decoration: none; color: rgb(75, 72, 72);">
-<p class="animated-heading">More Details</p>
-</a>
-
-</center>
-<div data-role="popup" id="popup10" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-<div style="padding: 10px;">
-<img class="popphoto" src="../includes/img/n10.jpg" style="max-height: 512px; width: 100%; height: auto;">
-<center>
-<p >
-Kalamansi Flavor P35
-</p>
-</center>
-</div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/o1.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-</center>            
-<div data-role="popup" id="popup1" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/o1.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p >
-                Siopao P35
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/o2.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-</center>            
-<div data-role="popup" id="popup2" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/o2.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p>
-                Pizza P180
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/o3.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-</center>            
-<div data-role="popup" id="popup3" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/o3.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p >
-                Classic Brown Footlong P50
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup4" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/o4.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup4" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-</center>            
-<div data-role="popup" id="popup4" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/o4.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p >
-                Regular Footlong P45
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/d1.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-</center>            
-<div data-role="popup" id="popup1" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/d1.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p >
-                C2 Apple flavor P35
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/d2.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup2" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-</center>            
-<div data-role="popup" id="popup2" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/d2.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p>
-                C2 Lemon flavor P35
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/d3.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup3" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-</center>            
-<div data-role="popup" id="popup3" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/d3.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p >
-                Royal P20
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup4" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/d4.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup4" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-</center>            
-<div data-role="popup" id="popup4" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/d4.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p >
-                Coke P20
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup5" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/d5.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup5" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-</center>            
-<div data-role="popup" id="popup5" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/d5.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p >
-                Yakult P20
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup6" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/d6.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup6" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-</center>            
-<div data-role="popup" id="popup6" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/d6.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p >
-                Mango Mangue P20
-
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup7" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/d7.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup7" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-</center>            
-<div data-role="popup" id="popup7" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/d7.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p >
-                Chuckie P20
-            </p>
-        </center>
-    </div>
-</div>
-<hr>
-<a class="animated-heading" href="#popup8" data-rel="popup" data-position-to="window" data-transition="fade">
-    <img src="../includes/img/d8.jpg" height="200" width="200px" alt="">
-</a>
-<center>
-    <a href="#popup8" data-rel="popup" data-position-to="window" data-transition="fade"
-    style="text-decoration: none; color: rgb(75, 72, 72);"
-     >
-        <p class="animated-heading">More Details</p>
-    </a>
-</center>            
-<div data-role="popup" id="popup8" data-overlay-theme="b" data-corners="false" style="max-height: 80vh; overflow-y: auto;">
-    <div style="padding: 10px;">
-        <img class="popphoto" src="../includes/img/d8.jpg" style="max-height: 512px; width: 100%; height: auto;">
-        <center>
-            <p >
-                Bottle Water P20
-            </p>
-        </center>
-    </div>
 </div>
             <br><br><br><br><br><br><br>
         </div>
+     
         <script src="../includes/js/js/index.js"></script>
         <script type="text/javascript">
             // Toggle dark mode manually (if needed from elsewhere)
